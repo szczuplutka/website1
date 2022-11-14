@@ -1,0 +1,95 @@
+@import url("https://fonts.googleapis.com/css2?family=Karla:wght@400;700&family=Open+Sans:wght@300;500;600;700;800&display=swap");
+:root{
+    --cyan: hsl(179, 62%, 43%);
+    --yellow: hsl(71, 73%, 54%);
+    --gray:hsl(204, 43%, 93%);
+    --Blue: hsl(218, 22%, 67%);
+    --white: hsl(255,100%,100%);
+    --black:hsl(40,5%,0%);
+}
+
+* {
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "Karla, sans-serif";
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    min-height: 100vh;
+    background-color: VAR(--Blue);
+    flex-wrap: wrap;
+    
+}
+.col-top{
+    color: var(--cyan);
+    background-color: hsl(255,100%,100%); 
+    padding:40px ;  
+}
+.day{
+    color:hsl(71, 73%, 54%);
+}
+.day2{
+    color:gray;
+    margin-top: 20px;
+    margin-bottom: 20px; 
+}
+.col-left{
+    background-color: hsl(179, 62%, 43%);
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    padding:40px ;
+    color: white;
+    height: 100%;
+    
+
+}
+.col-right{
+    color: white;
+    padding: 40px;
+    background-color: hsl(179, 62%, 43%);
+    width: 50%;
+    background-color:  hsl(179, 55%, 53%);
+}
+.col-down{
+    display: flex ;
+}
+ .container{
+width: 40%;
+overflow: hidden;
+border-radius: 10px;
+
+ }
+ .tittle{
+    font-size: 26px;
+    margin-bottom: 15px;
+    column-gap: normal;
+ }
+ .btn{
+    background-color: var(--yellow);
+    text-shadow: 5px 5px 25px ;
+    border: solid yellow;
+    border-radius: 5px;
+    padding: 30px;
+    margin-top: 15px;
+    
+ }
+ .dolar{
+    font-size: 30px ; 
+ }
+ .full{
+    font-size:15px;
+    margin-top: 30px;
+    color: rgb(221, 221, 221);
+ }
+ .col-right{
+    font-size:16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+ }
